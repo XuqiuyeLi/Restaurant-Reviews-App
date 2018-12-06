@@ -1,0 +1,60 @@
+<main id="maincontent">
+    <section>
+      <form class="filter-options" method="get" action="/">
+        <h2>Manhattan Filter Results</h2>
+        <select id="neighborhoods-select" class="custom-select" name="neighborhoods">
+          <option value="all">All Neighborhoods</option>
+          <option value="Upper East">Upper East</option>
+          <option value="Upper West">Upper West</option>
+          <option value="Midtown East">Midtown East</option>
+          <option value="Midtown West">Midtown West</option>
+          <option value="Flatiron">Flatiron</option>
+          <option value="Chelsea">Chelsea</option>
+          <option value="Chinatown">Chinatown</option>
+          <option value="East Village">East Village</option>
+          <option value="West Village">West Village</option>
+          <option value="Financial District">Financial District</option>
+        </select>
+        <select id="cuisines-select" class="custom-select" name="cuisines">
+          <option value="all">All Cuisines</option>
+          <option value="American">American</option>
+          <option value="Chinese">Chinese</option>
+          <option value="French">French</option>
+          <option value="Japanese">Japanese</option>
+          <option value="Korean">Korean</option>
+          <option value="Italian">Italian</option>
+          <option value="Thai">Thai</option>
+          <option value="Vietnamese">Vietnamese</option>
+        </select>
+        <select id="price-select" class="custom-select" name="price">
+          <option value="all">All Price Levels</option>
+          <option value="$">$</option>
+          <option value="$$">$$</option>
+          <option value="$$$">$$$</option>
+          <option value="$$$$">$$$$</option>
+        </select>
+        <input type="submit" class= "add" value="FILTER"/>
+      </form>
+    </section>
+    <section>
+      {{#if message}}
+        <h1>{{message}}</h1>
+      {{/if}}
+      <ol id="restaurants-list">
+        {{#each restaurant}}
+          <li>
+            <section id="restaurant-container">
+              <h3 id="restaurant-name">{{name}}</h3>
+              <div>
+                <span id="restaurant-price">{{price}}</span>
+                <span id="restaurant-cuisine" style="color:#6495ED;">{{cuisine_type}}</span>
+              </div>
+              <form method="GET" action="/restaurant/{{slug}}"><input class="add-review" type="submit" value="See All Reviews" /></form>
+              <p id="restaurant-neighborhood">{{neighborhood}}</p>
+              <p id="restaurant-address">{{address}}</p>
+            </section>
+        </li>
+        {{/each}}
+      </ol>
+    </section>
+</main>

@@ -1,0 +1,19 @@
+<h2>Register</h2>
+{{#if message}}
+	<h3 style="color:#B22222 !important;">{{ message }}</h3>
+{{/if}}
+<form method="POST" action="/register">
+	<div>
+		<label for="username">Username:</label><br/>
+		<input class="form" type="text" name="username" value=""><br/><br/>
+	</div>
+	<div>
+		<label for="email">Email:</label><br/>
+		<input class="form" type="email" name="email" value=""><br/><br/>
+	</div>
+	<div>
+		<label for="password">Password:</label><br/>
+		<input class="form" type="password" name="password" value=""><br/><br/>
+	</div>
+	<div><input class="add" type="submit" value="Register"></div>
+</form

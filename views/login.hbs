@@ -1,0 +1,17 @@
+<h2>Login</h2>
+{{#if message}}
+<h3 style="color:#B22222 !important;"> {{ message }} </h3>
+{{/if}}
+<form method="POST" action="login">
+	<div>
+		<label for="username">Username:</label><br/>
+		<input class="form" type="text" name="username" value=""><br/><br/>
+	</div>
+	<div>
+		<label for="password">Password:</label><br/>
+		<input class="form" type="password" name="password" value=""><br/><br/>
+	</div>
+	<div>
+		<input class="add" type="submit" value="Login">
+	</div>
+</form>

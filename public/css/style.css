@@ -1,0 +1,120 @@
+body {
+  padding: 100px;
+  background-color: #F5F5F5;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  color:#696969;
+  letter-spacing: 2px;
+}
+
+h2 {
+  color:#FFA500;
+  letter-spacing: 2px;
+}
+
+h3 {
+  color:#FF851B;
+}
+
+.link {
+  padding-right: 40px;
+}
+
+
+header a:hover {
+    color:#FF851B!important;
+}
+
+/*******------------------Restaurant------------------********/
+
+
+.restaurant-name a:hover {
+    color:#FF851B!important;
+}
+
+
+.custom-select {
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px;
+  font-weight: bolder;
+  background-color: #FF851B;
+  color: #FFFAF0;
+  position: relative;
+  width: 240px;
+  height: 40px;
+  padding: 10px; 
+  margin-right: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border: 2px solid #FF851B;
+}
+
+
+.form {
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 240px;
+  height: 30px;
+  padding: 10px;    
+  border: 2px solid #696969;
+}
+
+.big-form {
+  border-radius: 10px;
+  box-sizing: border-box;
+    width: 240px;
+    height: 120px;
+    padding: 10px;    
+    border: 2px solid #FF851B;
+}
+
+.add {
+  border-radius: 8px;
+  box-sizing: content-box;
+    width: 100px;
+    height: 20px;
+    padding: 5px; 
+    margin-left: 80px;
+    background-color: #696969;
+    color: #00FFFF;
+    letter-spacing: 2px;
+}
+
+.add:hover {
+  background-color:#6495ED;
+}
+
+.add-review {
+    border-radius: 8px;
+    box-sizing: content-box;
+    width: 140px;
+    height: 20px;
+    padding: 5px; 
+    margin-right:460px;
+    float: right;
+    border: 2px solid #FF851B;
+    color: #6495ED;
+    letter-spacing: 2px;
+
+}
+
+.add-review:click {
+  border-radius: 8px;
+    box-sizing: content-box;
+    width: 40px;
+    height: 20px;
+    padding: 5px; 
+    margin-right:460px;
+    float: right;
+    border: 2px solid #FF851B;
+    background-color: #FF851B;
+    color:#F5F5F5;
+    letter-spacing: 2px;
+
+}
+
+.checked {
+    color: orange;
+}

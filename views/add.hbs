@@ -1,0 +1,27 @@
+<h2>Add a New Restaurant</h2>
+{{#if message}}
+	<h3 style="color:#B22222 !important;"> {{ message }} </h3>
+{{/if}}
+<form id="add-restaurant" method="POST" action="/add">
+	<div>
+		<label for="name">Name:</label><br/>
+		<input class ="form" type="text" id="name" name="name" value=""><br/><br/>
+	</div>
+	<div>
+		<label for="neighborhood">Neighborhood:</label><br/>
+		<input class="form" type="text" id="neighborhood" name="neighborhood" value=""><br/><br/>
+	</div>
+	<div>
+		<label for="address">Address:</label><br/>
+		<input class="form" type="text" name="address" id="address"></input><br/><br/>		
+	</div>
+	<div>
+		<label for="cuisine_type">Cuisine:</label><br/>
+		<input class="form" type="text" id="cuisine_type" name="cuisine_type" value=""><br/><br/>
+	</div>
+	<div>
+		<label for="price">Price: </label><br/>
+		<input class="form" type="text" id="price" name="price" value=""><br/><br/>
+	</div>
+	<input class="add" type="submit" value="Add">
+</form>

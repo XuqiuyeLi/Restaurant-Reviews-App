@@ -1,0 +1,35 @@
+{{#each restaurant}}
+<section id="restaurant-container">
+	<h2 id="restaurant-name">{{name}}</h2>
+	<div>
+        <span id="restaurant-price">{{price}}</span>
+        <span id="restaurant-cuisine" style="color:#6495ED;">{{cuisine_type}}</span>
+    </div>
+	<p id="restaurant-neighborhood">{{neighborhood}}</p>
+	<p id="restaurant-address">{{address}}</p>
+</section>
+{{/each}}
+
+<section id="reviews-container">
+	<h2>Reviews</h2>
+	<ol id="reviews-list">
+	{{#each review}}
+			<li>
+				<h3>{{restaurant_name}}</h3>
+				<div class="star-rating">
+					<span>{{rating}} stars</span><span class="fa fa-star checked"></span>	
+				</div>
+				<div>
+				<br/>
+					<span style="color:#DC143C">by {{username}}</span>
+					<span style="color:#6495ED; float:right; margin-right:100px;">{{date}}</span>
+				</div>
+				<div>
+					<p>{{comments}}</p>
+				</div>
+			</li>
+	{{/each}}
+	</ol>
+</section>
+
+
