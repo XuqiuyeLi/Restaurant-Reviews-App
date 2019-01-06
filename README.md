@@ -4,7 +4,7 @@
 
 ## Overview
 
-With this restaurant review app, you can easily search for nearby restaurants, read plenty of reviews, and even view great local deals and opening hours of the place. Search filters ensure that you can narrow things down according to distance, price, and rating, so you know exactly what you’re getting into. 
+With this restaurant review app, you can easily search for nearby restaurants, read plenty of reviews. Search filters ensure that you can narrow things down according to location, price, and rating, so you know exactly what you’re getting into. 
 
 
 ## Data Model
@@ -77,9 +77,9 @@ An Example Restaurant with Embedded Reviews:
 2. as non-registered user, I can browse the restaurants on the map
 3. as a user, I can log in to the site
 4. as a user, I can search the restaurants based on my preference
-5. as a user, I can add reviews to restaurants
-6. as a user, I can view all of the restaurants I saved to my list
-7. as a user, I can remove restaurants from my "saved" list
+5. as a user, I can add new restaurants to the site
+6. as a user, I can add reviews to restaurants
+
 
 ## Research Topics
 
