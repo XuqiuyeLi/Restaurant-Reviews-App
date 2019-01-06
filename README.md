@@ -63,23 +63,8 @@ An Example Restaurant with Embedded Reviews:
 ```
 
 
-## [Link to Commented First Draft Schema](db.js) 
+## [Link to Commented Schema](db.js) 
 
-
-
-## Wireframes
-
-/ - home page for all restaurants in an area
-
-![home](documentation/home.jpg)
-
-/restaurant - page for showing all the basic info about the restaurant
-
-![restaurant](documentation/restaurant.jpg)
-
-/my-restaurants - page for the restaurants I have saved
-
-![my-restaurant](documentation/my_restaurant.jpg)
 
 ## Site map
 
@@ -108,7 +93,7 @@ An Example Restaurant with Embedded Reviews:
 
 
 
-## [Link to Initial Main Project File](app.js) 
+## [Link to Main Project File](app.js) 
 
 
 ## Annotations / References Used
