@@ -68,7 +68,7 @@ An Example Restaurant with Embedded Reviews:
 
 ## Site map
 
-![a site map](documentation/site_map.png)
+![a site map](documentation/siteMap.png)
 
 ## User Stories 
 
